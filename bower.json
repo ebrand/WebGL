@@ -1,0 +1,17 @@
+{
+  "name": "webgl",
+  "description": "WebGL test bench",
+  "main": "index.html",
+  "authors": [
+    "Eric Brand"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
