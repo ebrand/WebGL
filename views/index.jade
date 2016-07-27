@@ -1,8 +1,20 @@
 extends layout
 
 block content
-  script(src="scripts/lib/three.min.js")
+  
+  #container
+
+  script(src="scripts/lib/three/three.min.js")
+  script(src="scripts/lib/three/CopyShader.js")
+  script(src="scripts/lib/three/DigitalGlitch.js")
+  script(src="scripts/lib/three/EffectComposer.js")
+  script(src="scripts/lib/three/RenderPass.js")
+  script(src="scripts/lib/three/MaskPass.js")
+  script(src="scripts/lib/three/ShaderPass.js")
+  script(src="scripts/lib/three/GlitchPass.js")
+  
   script(src="scripts/lib/stats.min.js")
   script(src="scripts/lib/dat.gui.min.js")
   script(src="scripts/lib/detector.min.js")
-  script(src="scripts/webgl.js")
+  script(src="scripts/webgl2.js")
+
